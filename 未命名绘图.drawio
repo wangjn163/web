@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T06:13:14.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="TP6Bk5O9FEy8xm8CRThK" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T06:24:06.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="eLfkX-AyKRzuNVR46lBF" version="24.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1820" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="4CMxuWEoI2JvDdu6Hhsh-29" value="&lt;div&gt;dispatcherFactory ProtoUDFactory&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ReceiveBufSize:int64&lt;br&gt;&lt;/div&gt;&lt;div&gt;RmqBufSize:int64&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-180" y="840" width="340" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-30" value="«工厂接口»&lt;div&gt;+msgstream.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;RmsFactory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-30" value="«工厂实现»&lt;div&gt;+msgstream.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;RmsFactory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-180" y="780" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4CMxuWEoI2JvDdu6Hhsh-32" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -82,8 +82,17 @@
         <mxCell id="4CMxuWEoI2JvDdu6Hhsh-33" value="&lt;div&gt;dispatcherFactory ProtoUDFactory&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;config:*paramtable.KafkaConfig&lt;br&gt;&lt;/div&gt;&lt;div&gt;ReceiveBufSize:int64&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="840" width="340" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-34" value="«工厂接口»&lt;div&gt;+msgstream.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;KmsFactory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-34" value="«工厂实现»&lt;div&gt;+msgstream.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;KmsFactory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="780" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-37" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="780" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-38" value="&lt;div&gt;dispatcherFactory ProtoUDFactory&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;persistentStorage string&lt;br&gt;&lt;/div&gt;&lt;div&gt;config&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; *config&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="840" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-39" value="«工厂实现»&lt;div&gt;+storage.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;ChunkManagerFactory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="780" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
