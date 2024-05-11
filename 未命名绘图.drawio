@@ -1,11 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T05:44:55.606Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="V_NULJXW7P7YmRr6Njry" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T06:03:48.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qRBopyM9Ub5mhZ-lf9YN" version="24.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-1" value="«interface»&lt;div&gt;dependency.&lt;b&gt;Factory&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="304" y="160" width="146" height="110" as="geometry" />
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="140" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-10" value="&lt;div&gt;msgstream.Factory&lt;br&gt;&lt;/div&gt;&lt;div&gt;Init(p *paramtable.ComponentParam)&lt;br&gt;&lt;/div&gt;&lt;div&gt;NewPersistentStorageChunkManager:storage.ChunkManager&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="200" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-11" value="«工厂接口»&lt;div&gt;+dependency.&lt;b&gt;Factory&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="140" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4CMxuWEoI2JvDdu6Hhsh-12" target="4CMxuWEoI2JvDdu6Hhsh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-12" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="350" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4CMxuWEoI2JvDdu6Hhsh-13" target="4CMxuWEoI2JvDdu6Hhsh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4CMxuWEoI2JvDdu6Hhsh-13" target="4CMxuWEoI2JvDdu6Hhsh-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-13" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;standAlone:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;chunkManagerFactory:storage.Factory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;msgStreamFactory:msgstream.Factory&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="410" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-14" value="«工厂实现»&lt;div&gt;+dependency.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;DefaultFactory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="350" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="560" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-17" value="&lt;div&gt;NewMsgStream:MsgStream&lt;br&gt;NewTtMsgStream:MsgStream&lt;br&gt;&lt;/div&gt;&lt;div&gt;NewQueryMsgStream:MsgStream&lt;br&gt;&lt;/div&gt;&lt;div&gt;NewMsgStreamDisposer:[]string&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="620" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-18" value="«工厂实现»&lt;div&gt;+msgstream.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Factory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="560" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="569" y="560" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-21" value="&lt;div&gt;NewPersistentStorageChunkManager:ChunkManager&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="569" y="620" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-22" value="«工厂实现»&lt;div&gt;+storage.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Factory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="569" y="560" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
