@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T06:03:48.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qRBopyM9Ub5mhZ-lf9YN" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T06:13:14.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="TP6Bk5O9FEy8xm8CRThK" version="24.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1820" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="4CMxuWEoI2JvDdu6Hhsh-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="140" width="340" height="150" as="geometry" />
+          <mxGeometry x="295" y="140" width="350" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-10" value="&lt;div&gt;msgstream.Factory&lt;br&gt;&lt;/div&gt;&lt;div&gt;Init(p *paramtable.ComponentParam)&lt;br&gt;&lt;/div&gt;&lt;div&gt;NewPersistentStorageChunkManager:storage.ChunkManager&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="200" width="340" height="90" as="geometry" />
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-10" value="&lt;div&gt;+ msgstream.Factory&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Init(p *paramtable.ComponentParam)&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ NewPersistentStorageChunkManager:storage.ChunkManager&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="200" width="350" height="90" as="geometry" />
         </mxCell>
         <mxCell id="4CMxuWEoI2JvDdu6Hhsh-11" value="«工厂接口»&lt;div&gt;+dependency.&lt;b&gt;Factory&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="140" width="340" height="60" as="geometry" />
+          <mxGeometry x="295" y="140" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4CMxuWEoI2JvDdu6Hhsh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4CMxuWEoI2JvDdu6Hhsh-12" target="4CMxuWEoI2JvDdu6Hhsh-10">
           <mxGeometry relative="1" as="geometry" />
@@ -34,10 +34,19 @@
         <mxCell id="4CMxuWEoI2JvDdu6Hhsh-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="560" width="340" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4CMxuWEoI2JvDdu6Hhsh-17" target="4CMxuWEoI2JvDdu6Hhsh-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4CMxuWEoI2JvDdu6Hhsh-17" target="4CMxuWEoI2JvDdu6Hhsh-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4CMxuWEoI2JvDdu6Hhsh-17" target="4CMxuWEoI2JvDdu6Hhsh-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4CMxuWEoI2JvDdu6Hhsh-17" value="&lt;div&gt;NewMsgStream:MsgStream&lt;br&gt;NewTtMsgStream:MsgStream&lt;br&gt;&lt;/div&gt;&lt;div&gt;NewQueryMsgStream:MsgStream&lt;br&gt;&lt;/div&gt;&lt;div&gt;NewMsgStreamDisposer:[]string&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="620" width="340" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-18" value="«工厂实现»&lt;div&gt;+msgstream.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Factory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-18" value="«工厂接口»&lt;div&gt;+msgstream.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Factory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="560" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4CMxuWEoI2JvDdu6Hhsh-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -46,8 +55,35 @@
         <mxCell id="4CMxuWEoI2JvDdu6Hhsh-21" value="&lt;div&gt;NewPersistentStorageChunkManager:ChunkManager&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="569" y="620" width="340" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-22" value="«工厂实现»&lt;div&gt;+storage.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Factory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-22" value="«工厂接口»&lt;div&gt;+storage.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Factory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="569" y="560" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-24" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-540" y="780" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-25" value="&lt;div&gt;dispatcherFactory ProtoUDFactory&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PulsarAddress&amp;nbsp; &amp;nbsp; string&lt;br&gt;&lt;/div&gt;&lt;div&gt;PulsarWebAddress string&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-540" y="840" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-26" value="«工厂接口»&lt;div&gt;+msgstream.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;PmsFactory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-540" y="780" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-180" y="780" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-29" value="&lt;div&gt;dispatcherFactory ProtoUDFactory&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ReceiveBufSize:int64&lt;br&gt;&lt;/div&gt;&lt;div&gt;RmqBufSize:int64&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-180" y="840" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-30" value="«工厂接口»&lt;div&gt;+msgstream.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;RmsFactory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-180" y="780" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-32" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="780" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-33" value="&lt;div&gt;dispatcherFactory ProtoUDFactory&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;config:*paramtable.KafkaConfig&lt;br&gt;&lt;/div&gt;&lt;div&gt;ReceiveBufSize:int64&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="840" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4CMxuWEoI2JvDdu6Hhsh-34" value="«工厂接口»&lt;div&gt;+msgstream.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;KmsFactory&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="780" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
